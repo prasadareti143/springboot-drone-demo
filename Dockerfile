@@ -17,4 +17,5 @@ ARG JAR_FILE=target/droneci-demo-0.0.1-SNAPSHOT.jar
 ADD ${JAR_FILE} droneci-demo-0.0.1-SNAPSHOT.jar
 
 # Run the jar file 
+#comment for build
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/droneci-demo-0.0.1-SNAPSHOT.jar"]
