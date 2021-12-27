@@ -10,6 +10,6 @@ steps:
 - name: docker  
   image: plugins/docker
   settings:
-    username: dindocker13
-    password: docker@123
-    repo: dindocker13/drone-demo
+    username: prasadaws143  
+    password: Volley@143
+    repo: prasadaws143/drone-demo
